@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(120deg, #e2c35d, #fda085);
+    background: linear-gradient(120deg, #2A9D8F, #E9C46A);
     color:white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -22,6 +22,16 @@ header, form{
     align-items: center;
 }
 
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+h5{
+    font-family: "Poppins", sans-serif;   
+}
+
+
 form input, form button{
     padding: 0.5rem;
     font-size: 2rem;
@@ -37,7 +47,7 @@ form button{
     transition: all 0.3s ease;
 }
 form button:hover{
-    background: #d88771;
+    background: #2A9D8F;
     color: white;
 }
 
@@ -68,7 +78,7 @@ form button:hover{
 }
 
 .trash-btn, .complete-btn{
-    background: #ff6f47;
+    background: #2A9D8F;
     color: white;
     border: none;
     padding: 1rem;
@@ -114,7 +124,7 @@ select{
 }
 
 select{
-    color: #ff6f47;
+    color: #2A9D8F;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -123,7 +133,7 @@ select{
 .select::after{
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #2A9D8F;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -133,6 +143,6 @@ select{
 
 .select:hover::after{
     background: white;
-    color: #ff6f47;
+    color: #2A9D8F;
 }
 
